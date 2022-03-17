@@ -3,6 +3,11 @@ import { DeviceApiResponse } from "."
 import ActionType from "./types"
 
 
+const initialize = () => {
+    return {
+        type: ActionType.INIT
+    }
+}
 
 
 const createGetDevicesStart = () => {
@@ -30,6 +35,7 @@ const createGetDevicesFailed = () => {
 
 
 export const actions = {
+    initialize,
     createGetDevicesStart,
     createGetDevicesSuccess,
     createGetDevicesFailed

@@ -2,7 +2,7 @@ import * as React from 'react'
 
 
 
-const DevicePage: React.FC <{}> = ({
+const Devices: React.FC <{}> = ({
 
 
 
@@ -23,4 +23,4 @@ return(
 
 }
 
-export default DevicePage;
+export default Devices;
